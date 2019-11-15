@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     }
 
     private func setInterface(){
+        self.title = "User Image List"
         self.tblView.register(UINib(nibName: "SingleImageTableCell", bundle: nil), forCellReuseIdentifier: "SingleImageTableCell")
         self.tblView.register(UINib(nibName: "DoubleImageTableCell", bundle: nil), forCellReuseIdentifier: "DoubleImageTableCell")
         self.tblView.register(UINib(nibName: "LoadingTableCell", bundle: nil), forCellReuseIdentifier: "LoadingTableCell")

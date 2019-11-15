@@ -38,36 +38,35 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="UserTableViewCell" rowHeight="70" id="H4W-1u-VlI" customClass="UserTableViewCell" customModule="Engineer_ai_Test" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="70"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="UserTableViewCell" rowHeight="60" id="H4W-1u-VlI" customClass="UserTableViewCell" customModule="Engineer_ai_Test" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="H4W-1u-VlI" id="BcS-RW-LwU">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RGW-Zd-FgK">
                                                     <rect key="frame" x="10" y="10" width="50" height="50"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" secondItem="RGW-Zd-FgK" secondAttribute="height" multiplier="1:1" id="5ZD-KY-3Av"/>
-                                                        <constraint firstAttribute="width" constant="50" id="rop-09-wLa"/>
+                                                        <constraint firstAttribute="height" constant="50" id="Irb-jJ-NHc"/>
+                                                        <constraint firstAttribute="width" secondItem="RGW-Zd-FgK" secondAttribute="height" multiplier="1:1" id="WR7-jm-mfx"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="31s-4j-94a">
-                                                    <rect key="frame" x="70" y="0.0" width="295" height="70"/>
+                                                    <rect key="frame" x="70" y="10" width="295" height="50"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="31s-4j-94a" secondAttribute="bottom" id="6Ju-Z8-QdG"/>
-                                                <constraint firstItem="RGW-Zd-FgK" firstAttribute="leading" secondItem="BcS-RW-LwU" secondAttribute="leading" constant="10" id="9IH-C6-o11"/>
-                                                <constraint firstAttribute="trailing" secondItem="31s-4j-94a" secondAttribute="trailing" constant="10" id="Glh-hF-y4q"/>
-                                                <constraint firstItem="RGW-Zd-FgK" firstAttribute="centerY" secondItem="BcS-RW-LwU" secondAttribute="centerY" id="Kh3-IA-s5v"/>
-                                                <constraint firstItem="31s-4j-94a" firstAttribute="top" secondItem="BcS-RW-LwU" secondAttribute="top" id="Oee-1F-vr9"/>
-                                                <constraint firstItem="31s-4j-94a" firstAttribute="leading" secondItem="RGW-Zd-FgK" secondAttribute="trailing" constant="10" id="P7r-bv-KHM"/>
-                                                <constraint firstItem="RGW-Zd-FgK" firstAttribute="top" secondItem="BcS-RW-LwU" secondAttribute="top" constant="10" id="fpi-yH-EYm"/>
-                                                <constraint firstAttribute="bottom" secondItem="RGW-Zd-FgK" secondAttribute="bottom" constant="10" id="zXB-sD-ymn"/>
+                                                <constraint firstItem="RGW-Zd-FgK" firstAttribute="leading" secondItem="BcS-RW-LwU" secondAttribute="leading" constant="10" id="27X-jA-Lpf"/>
+                                                <constraint firstItem="31s-4j-94a" firstAttribute="leading" secondItem="RGW-Zd-FgK" secondAttribute="trailing" constant="10" id="9fE-dv-Pzq"/>
+                                                <constraint firstAttribute="trailing" secondItem="31s-4j-94a" secondAttribute="trailing" constant="10" id="EdW-QR-MGG"/>
+                                                <constraint firstAttribute="bottom" secondItem="31s-4j-94a" secondAttribute="bottom" id="L4k-ct-zO9"/>
+                                                <constraint firstItem="31s-4j-94a" firstAttribute="top" secondItem="BcS-RW-LwU" secondAttribute="top" constant="10" id="V2H-x2-Or0"/>
+                                                <constraint firstAttribute="bottom" secondItem="RGW-Zd-FgK" secondAttribute="bottom" id="YY1-1x-QdO"/>
+                                                <constraint firstItem="RGW-Zd-FgK" firstAttribute="top" secondItem="BcS-RW-LwU" secondAttribute="top" constant="10" id="ghh-y4-NUF"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>

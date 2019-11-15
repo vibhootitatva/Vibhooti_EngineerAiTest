@@ -20,7 +20,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9l8-Cl-bsC">
-                        <rect key="frame" x="10" y="0.0" width="307" height="300.5"/>
+                        <rect key="frame" x="10" y="10.5" width="307" height="300"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="300" id="lCk-vr-uTZ"/>
                         </constraints>
@@ -29,7 +29,7 @@
                 <constraints>
                     <constraint firstItem="9l8-Cl-bsC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="HJZ-7J-VCR"/>
                     <constraint firstAttribute="trailing" secondItem="9l8-Cl-bsC" secondAttribute="trailing" constant="10" id="Rmv-3w-ypU"/>
-                    <constraint firstItem="9l8-Cl-bsC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="X6e-gh-7sE"/>
+                    <constraint firstItem="9l8-Cl-bsC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="X6e-gh-7sE"/>
                     <constraint firstAttribute="bottom" secondItem="9l8-Cl-bsC" secondAttribute="bottom" id="xLL-Lb-cgO"/>
                 </constraints>
             </tableViewCellContentView>
