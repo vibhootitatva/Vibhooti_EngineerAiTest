@@ -171,32 +171,32 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource{
         }
     }
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        if let count = self.responseData?.users?.count{
-            if indexPath.section < count {
-                if let count = self.responseData?.users?[indexPath.section].items?.count{
-                    if count % 2 == 0{
-                        if (indexPath.row == 0){
-                            return 70.0
-                        }
-                        return UIScreen.main.bounds.size.width - 30 / 2
-                    }
-                    else{
-                        if (indexPath.row == 0){
-                            return 70.0
-                        }else if (indexPath.row == 1){
-                            return UIScreen.main.bounds.size.width - 20
-                        }
-                        
-                        return UIScreen.main.bounds.size.width - 30 / 2
-                    }
-                }
-            }
-            else{
-                // loading cell
-                return 50.0
-            }
-        }
-        return 0
-    }
+//    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+//        if let count = self.responseData?.users?.count{
+//            if indexPath.section < count {
+//                if let count = self.responseData?.users?[indexPath.section].items?.count{
+//                    if count % 2 == 0{
+//                        if (indexPath.row == 0){
+//                            return 70.0
+//                        }
+//                        return UIScreen.main.bounds.size.width - 30 / 2
+//                    }
+//                    else{
+//                        if (indexPath.row == 0){
+//                            return 70.0
+//                        }else if (indexPath.row == 1){
+//                            return UIScreen.main.bounds.size.width - 20
+//                        }
+//                        
+//                        return UIScreen.main.bounds.size.width - 30 / 2
+//                    }
+//                }
+//            }
+//            else{
+//                // loading cell
+//                return 50.0
+//            }
+//        }
+//        return 0
+//    }
 }

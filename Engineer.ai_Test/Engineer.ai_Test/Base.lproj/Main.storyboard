@@ -66,6 +66,8 @@
                                                 <constraint firstItem="RGW-Zd-FgK" firstAttribute="centerY" secondItem="BcS-RW-LwU" secondAttribute="centerY" id="Kh3-IA-s5v"/>
                                                 <constraint firstItem="31s-4j-94a" firstAttribute="top" secondItem="BcS-RW-LwU" secondAttribute="top" id="Oee-1F-vr9"/>
                                                 <constraint firstItem="31s-4j-94a" firstAttribute="leading" secondItem="RGW-Zd-FgK" secondAttribute="trailing" constant="10" id="P7r-bv-KHM"/>
+                                                <constraint firstItem="RGW-Zd-FgK" firstAttribute="top" secondItem="BcS-RW-LwU" secondAttribute="top" constant="10" id="fpi-yH-EYm"/>
+                                                <constraint firstAttribute="bottom" secondItem="RGW-Zd-FgK" secondAttribute="bottom" constant="10" id="zXB-sD-ymn"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
